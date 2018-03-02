@@ -5,14 +5,14 @@
 @media (min-width: 600px) {
   .grid {
     display: grid;
-    grid-template-columns: 0.5fr 1.25fr 1.25fr;
+    grid-template-columns: 1.25fr 1.25fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 20px;
   }
 }
 
-.item1 {
+/* .item1 {
   grid-column: 1/1;
   grid-row: 1/1;
   align-self: auto;
@@ -40,4 +40,4 @@
   grid-column: 3/3;
   grid-row: 2/2;
   align-self: auto;
-}
+} */
