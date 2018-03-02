@@ -2,12 +2,17 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
+/* Text Hover */
+.text-hover:hover {
+  color: #19a974;
+}
+
 @media (min-width: 600px) {
   .grid {
     display: grid;
     grid-template-columns: 1.25fr 1.25fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 10px;
+    grid-column-gap: 20px;
     grid-row-gap: 20px;
   }
 }
