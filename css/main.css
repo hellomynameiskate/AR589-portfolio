@@ -17,6 +17,16 @@
   }
 }
 
+@media (min-width: 600px) {
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1.75fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+  }
+}
+
 /* .item1 {
   grid-column: 1/1;
   grid-row: 1/1;
