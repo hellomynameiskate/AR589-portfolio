@@ -2,9 +2,17 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
+/* a {
+  text-decoration: none;
+} */
+
 /* Text Hover */
 .text-hover:hover {
   color: #19a974;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
 }
 
 @media (min-width: 600px) {
@@ -20,8 +28,18 @@
 @media (min-width: 600px) {
   .grid2 {
     display: grid;
-    grid-template-columns: 1.75fr;
+    grid-template-columns: 1.75fr 1.75;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+  }
+}
+
+@media (min-width: 600px) {
+  .logo {
+    display: grid;
+    grid-template-columns: 1.75fr;
+    grid-template-rows: 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 20px;
   }
