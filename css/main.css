@@ -8,11 +8,29 @@
 
 /* Text Hover */
 .text-hover:hover {
-  color: #19a974;
+  color: #f15e40;
 }
 
+/* Fonts */
 .roboto {
   font-family: "Roboto", sans-serif;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.line {
+  border: none;
+  border-top: 1px dotted #f15e40;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
 }
 
 @media (min-width: 600px) {
