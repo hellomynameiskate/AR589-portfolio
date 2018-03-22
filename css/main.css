@@ -8,7 +8,7 @@
 
 /* Text Hover */
 .text-hover:hover {
-  color: #f15e40;
+  color: #f9b326;
 }
 
 /* Fonts */
@@ -26,7 +26,7 @@
 
 .line {
   border: none;
-  border-top: 1px dotted #f15e40;
+  border-top: 1px dotted #f9b326;
   color: #fff;
   background-color: #fff;
   height: 1px;
