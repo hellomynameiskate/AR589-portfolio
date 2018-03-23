@@ -33,7 +33,10 @@
   width: 100%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 64em) {
+  .nav-width {
+    width: 200px;
+  }
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
