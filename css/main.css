@@ -25,6 +25,10 @@
 }
 
 /* Fonts */
+.avenir {
+  font-family: "avenir next", avenir, sans-serif;
+}
+
 .roboto {
   font-family: "Roboto", sans-serif;
 }
