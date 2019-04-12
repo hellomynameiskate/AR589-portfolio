@@ -64,6 +64,13 @@
   }
 }
 
+.gridlarge {
+  display: grid;
+  grid-column: 3 / span 2;
+  grid-row: second-line / 3;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
+}
+
 /* Narrow Width Text */
 .measure {
   max-width: 45em;
